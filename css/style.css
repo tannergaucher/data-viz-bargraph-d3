@@ -1,0 +1,54 @@
+html {
+  height: 100vh;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #2F3E46;
+  height: 100vh;
+}
+
+.data-visualization {
+  height: 500px;
+  width: 900px;
+  background: #fafafa;
+  box-shadow: 5px 5px 20px;
+}
+
+svg {
+  background-color: pink;
+}
+
+.bar {
+  width: 25px;
+  height: 100px;
+  display: inline-block;
+  background-color: blue;
+}
+
+/* .container {
+  width: 900px;
+  margin: 0 auto;
+  margin-top: 50px;
+} */
+
+/* @media(max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media(max-width: 768px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media(max-width: 480px) {
+  .container {
+    width: 350px;
+  }
+} */
